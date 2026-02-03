@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Hinata</title>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<header>
+  <nav class="nav-flex">
+    <h1 class="site-title"><a href="index.html" class="site-title-url">My Portfolio</a></h1>
+    <ul class="ul-flex">
+      <li>About</li>
+      <li>Skill&Works</li>
+      <li>Certification</li>
+      <li>Hobby</li>
+    </ul>
+  </nav>
+</header>
+
+<body>
+  <img src="img/真しらせ.png" class="img-shirase" data-aos="fade-up">
+  <!-- <h1 data-aos="fade-up">ポートフォリオ</h1> -->
+
+  <h2 class="jikosyoukai" data-aos="fade-up">About</h2>
+
+  <div class="introduction" data-aos="fade-up" data-aos-duration="2000">
+    <img src="img/20231007_110157.jpg" class="hinata">
+
+    <section>
+      <p>こんにちは、小野陽太(おのひなた)です。2003年生まれで<br>
+        岩手県盛岡市に住んでいます。私は現在、盛岡情報ビジネス&<br>
+        デザイン専門学校でITについて学んでいます。好きな言語は<br>
+        PythonとJavascript、好きなフレームワークはDjangoです。<br>
+        趣味は一人旅、キャンプ、音ゲー、アニメ鑑賞などです。好き<br>
+        な音楽のジャンルはアニソンとクラシックです。特にショパン<br>
+        が好きです。将来は海の近くに住みたいです。
+      </p>
+    </section>
+  </div>
+
+  <div data-aos="fade-up">
+    <div class="skillworks">
+      <h2 data-aos="fade-up">Skill&Works</h2>
+      <p class="skill-text">今までに制作した成果物たちです。クリックして詳細を見ることができます。</p>
+    </div>
+
+    <section class="works">
+      <div class="card" data-title="神経衰弱"
+        data-text="1年生の春休み中に作成した簡単なゲームです。難易度の選択が可能で簡単で12枚、普通で24枚のカードでプレイになります。まずMath.random() - 0.5で並び替えをしてカードを配置します。その後カードがクリックされるとそのカードの番号がリストに格納されます。リストの中が2つになるとその二つの情報を比較し、同じだった場合画像のように灰色になり押せなくまります。違う場合はsetTimeoutで1秒後に裏返します。そしてすべてのカードが一致した場合終了となります。ちなみに、高速にたくさんのカードをクリックするとバグが発生してうまく判定されなくなってしまいます。"
+        data-img="img/sinkei.png">
+        <div class="card-image" style="background-image: url('img/sinkei.png');"></div>
+
+        <div class="card-body">
+          <h3>神経衰弱</h3>
+          <p>HTML, CSS, JSを使用し作成した簡単なゲームです。</p>
+        </div>
+      </div>
+      <div class="card" data-title="記憶力ゲーム"
+        data-text="最近、ワーキングメモリーの衰えを感じています。具体的には、バイト中にお客さんの名前を聞いたはずなのにもかかわらず3秒後には忘れてしまっていたり、頼まれた商品を忘れてしまったりといろいろです。そこで、どうにか脳機能の改善を促すことができるようなゲームを作成できないかと考え、このゲームの開発に至りました。ゲームを始めると1秒間の間数字が表示されます(難易度によって桁数が異なります)。プレイヤーは数字が消えると数字を入力できるようになり、表示された数字と一致した場合のみ自動で次の問題が出題されます。間違った場合は入力欄がクリアされもう一度入力するように促されます。横のSTOPボタンからTOP画面に遷移できます。いずれ電話番号や住所バージョンも追加したいと思っています。"
+        data-img="img/memory.png">
+        <div class="card-image" style="background-image: url('img/memory.png');"></div>
+
+        <div class="card-body">
+          <h3>記憶力ゲーム</h3>
+          <p>HTML, CSS, JSを使用し作成した簡単なゲームです2。</p>
+        </div>
+      </div>
+      <div class="card" data-title="ポ〇モン" data-text="tkinterとpygameで作成したゲームです。">
+        <div class="card-image" style="background-image: url('img/20231007_110157.jpg');"></div>
+
+        <div class="card-body">
+          <h3>ポ〇モン</h3>
+          <p>tkinter,pygameを使用し作成しました。</p>
+        </div>
+      </div>
+      <div class="card" data-title="簡易ATM" data-text="tkinterとMySQLを使ったATM風アプリです。">
+        <div class="card-image" style="background-image: url('img/atm.png');"></div>
+
+        <div class="card-body">
+          <h3>簡易ATM</h3>
+          <p>tkinter,MySQLを使用しました。</p>
+        </div>
+      </div>
+      <div class="card" data-title="X風アプリ" data-text="Djangoで作成したSNSアプリです。">
+        <div class="card-image" style="background-image: url('img/x.png');"></div>
+
+        <div class="card-body">
+          <h3>X風アプリ</h3>
+          <p>Djangoを使用し作成したSNSアプリです。</p>
+        </div>
+      </div>
+      <div class="card" data-title="作成中" data-text="現在開発中の作品です。">
+        <div class="card-image" style="background-image: url('img/map.png');"></div>
+
+        <div class="card-body">
+          <h3>画像投稿アプリ</h3>
+          <p>HTML, CSS, JSを使用し作成した簡単なゲームです。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ポップアップ -->
+    <div class="card" data-title="画像1" data-text="これは画像1です" data-img="img/sinkei.png"></div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 id="modal-title"></h3>
+        <div class="model-flex">
+          <p id="modal-text"></p>
+          <img id="modal-img" src="" alt="モーダル画像" style="width:100%; max-height:60vh; object-fit:contain;">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="certification" data-aos="fade-up">
+    <div class="certification_desc">
+      <h2 class="certification-title">Certification</h2>
+      <p class="certification-text">今までに取得した資格たちです。</p>
+    </div>
+
+    <section class="timeline">
+      <div class="timeline-item">
+        <span class="dot"></span>
+        <div class="content">
+          <span class="date">2024/10</span>
+          <span class="text">基本情報</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <span class="dot"></span>
+        <div class="content">
+          <span class="date">2025/9</span>
+          <span class="text">LinuC101</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <span class="dot"></span>
+        <div class="content">
+          <span class="date">2025/9</span>
+          <span class="text">G検定</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <span class="dot"></span>
+        <div class="content">
+          <span class="date">(予定)</span>
+          <span class="text">応用情報</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div>
+    <div class="hobby" data-aos="fade-up">
+      <h2>Hobby</h2>
+      <p>私の趣味をいくつか語りたいと思います。</p>
+    </div>
+
+    <section class="music-game" data-aos="fade-up">
+      <h2 class="section-title">
+        <span class="bar"></span>
+        音ゲー
+      </h2>
+
+      <div class="section-body">
+        <div class="content">
+          <div class="image-box">
+            <img src="img/オンゲキ.jpg">
+          </div>
+
+          <div class="text-box">
+            <p>私がメインで嗜む音ゲーは「オンゲキ」と呼ばれるアーケードゲームです。正面の6つのボタンのほかに、レバーと
+              左右の壁のボタンの操作が求められることが特徴の音ゲーです。壁を叩く爽快感がたまらなく、
+              ストレス発散にもっとも向いている音ゲーといっても過言ではないでしょう。今後の目標は学校を卒業するまでに
+              レート22に到達することです。他にはDJMAXというPC音ゲーを最近始めました。いつキーボードを破壊するのかと
+              ヒヤヒヤしながらプレイしています。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="slider" data-aos="fade-up">
+      <h2 class="section-title">
+        <span class="bar"></span>
+        <span class="title-text">電車旅</span>
+      </h2>
+
+      <div class="section-body">
+        <button class="nav prev">&lt;</button>
+
+        <div class="slider-viewport">
+          <div class="slider-inner" id="sliderInner"></div>
+        </div>
+
+        <button class="nav next">&gt;</button>
+      </div>
+    </section>
+
+
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2026 My Portfolio</p>
+      </div>
+
+    </footer>
+
+
+
+
+  </div>
+
+
+  <script type="text/javascript" src="portfolio.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    // ⭐ AOS を初期化
+    AOS.init({
+      duration: 2000, // アニメーションの長さ(ms)
+      once: true      // 1回だけ動かすなら true
+    });
+  </script>
+</body>
+
+</html>
