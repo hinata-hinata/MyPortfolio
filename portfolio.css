@@ -8,6 +8,7 @@ body {
 .site-title-url{
   text-decoration: none;
   color: black;
+  font-family:'Playfair Display', serif ;
 }
 
 
@@ -508,3 +509,14 @@ body {
   background-color: #c0ac96;
 }
 
+
+.ul-flex li a{
+  text-decoration: none;
+  color: black;
+  font-family:'Playfair Display', serif ;
+}
+
+#about, #skills, #certifications, #hobby{
+  font-family:'Playfair Display', serif ;
+
+}

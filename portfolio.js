@@ -114,5 +114,3 @@ modal.addEventListener("click", (e) => {
     modal.classList.remove("active");
   }
 });
-
-
