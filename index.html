@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio | Hinata</title>
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="portfolio.css">
 </head>
 
@@ -68,7 +69,7 @@
           <p>HTML, CSS, JSを使用し作成した簡単なゲームです2。</p>
         </div>
       </div>
-      <div class="card" data-title="ポ〇モン" data-text="tkinterとpygameで作成したゲームです。">
+      <div class="card" data-title="制作中" data-text="制作中です">
         <!-- <div class="card-image" style="background-image: url('img/20231007_110157.jpg');"></div> -->
 
         <div class="card-body">
@@ -76,7 +77,9 @@
           <p>制作中制作中制作中制作中制作中制作中制作中制作中</p>
         </div>
       </div>
-      <div class="card" data-title="簡易ATM" data-text="tkinterとMySQLを使ったATM風アプリです。">
+      <div class="card" data-title="簡易ATM"
+        data-text="MySQLを使用しデータの管理を行っています。ログイン処理は、入力されたメールアドレスからアカウントを取得してハッシュ済みのパスワードを取得→アカウントからソルトを取得→入力されたパスワードをソルトを使用しハッシュ化→ハッシュ値を比較し同じだった場合ログイン成功！という流れになっています。いずれの機能も、残高よりも金額が大きい場合エラーになります。データベース設計はあまり経験がないため正規化に苦労しました。このアプリの制作を通して、ログイン処理の流れやデータベースに対する理解がより深まりました。"
+        data-img="img/atm2.png">
         <div class="card-image" style="background-image: url('img/atm.png');"></div>
 
         <div class="card-body">
@@ -84,7 +87,9 @@
           <p>tkinter,MySQLを使用しました。</p>
         </div>
       </div>
-      <div class="card" data-title="X風アプリ" data-text="Djangoで作成したSNSアプリです。">
+      <div class="card" data-title="X風アプリ"
+        data-text="自分以外のユーザーの投稿は編集、削除できません。また、ログインしていない場合新規投稿はできないです。ユーザー名をクリックすることでその人のプロフィール画面を見ることができます。プロフィール画面ではその人がフォローしている人、フォローされている人の一覧、これまでの投稿が見られます。自分のプロフィールの場合だけ、一言メッセージの編集ボタンが表示されます。Djangoは汎用クラスビューを使用することで簡単に機能を実装することができるのでとても気に入っています。また、このアプリはUI, UXを一切考慮していないため時間ができたらユーザーを意識したアプリの制作をDjangoでやりたいです。"
+        data-img="img/tweet.png">
         <div class="card-image" style="background-image: url('img/x.png');"></div>
 
         <div class="card-body">
@@ -92,7 +97,9 @@
           <p>Djangoを使用し作成したSNSアプリです。</p>
         </div>
       </div>
-      <div class="card" data-title="作成中" data-text="現在開発中の作品です。">
+      <div class="card" data-title="作成中"
+        data-text="旅をしているときに、ふと「県ごとに写真を投稿、閲覧できるサイトがあれば旅人にとって目的地の決定や感想の共有に役立つのでは」と思い作成に至りました。Djangoを使っているのは単に使用感がお気に入りだからです。ログインした後のページはjapan-map-jsを利用して日本地図が表示されるようにしています。地図は視覚的に分かりやすいように地方ごとに色分けをしました。任意の県をクリックすると、その県の投稿された写真一覧ページへ遷移します。投稿写本人のみ編集削除ができます。いいねは誰でもできるようになっています。いいねをした投稿はハンバーガーメニューのお気に入りからいつでも見ることができます。いずれはいいねされたときに通知される機能を実装したいと思っています。"
+        data-img="img/django-map.png">
         <div class="card-image" style="background-image: url('img/map.png');"></div>
 
         <div class="card-body">
@@ -136,7 +143,7 @@
       <div class="timeline-item">
         <span class="dot"></span>
         <div class="content">
-          <span class="date">2025/9</span>
+          <span class="date">2025/09</span>
           <span class="text">LinuC101</span>
         </div>
       </div>
@@ -144,7 +151,7 @@
       <div class="timeline-item">
         <span class="dot"></span>
         <div class="content">
-          <span class="date">2025/9</span>
+          <span class="date">2025/09</span>
           <span class="text">G検定</span>
         </div>
       </div>
@@ -179,7 +186,7 @@
 
           <div class="text-box">
             <p>私がメインで嗜む音ゲーは「オンゲキ」と呼ばれるアーケードゲームです。正面の6つのボタンのほかに、レバーと
-              左右の壁のボタンの操作が求められることが特徴の音ゲーです。壁を叩く爽快感がたまらなく、
+              左右の壁のボタン操作が求められることが特徴の音ゲーです。壁を叩く爽快感がたまらなく、
               ストレス発散にもっとも向いている音ゲーといっても過言ではないでしょう。今後の目標は学校を卒業するまでに
               レート22に到達することです。他にはDJMAXというPC音ゲーを最近始めました。いつキーボードを破壊するのかと
               ヒヤヒヤしながらプレイしています。
